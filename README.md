@@ -1,7 +1,7 @@
 # Tensor AQA Test Cases
 
-## Функциональности
-- Реализовано на Python 3.10+ с Selenium WebDriver
+## Описание
+- Выполнено на Python 3.10+ с Selenium WebDriver
 - Применен паттерн Page Object Model
 - Использован pytest как тестовый фреймворк
 
