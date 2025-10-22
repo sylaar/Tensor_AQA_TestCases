@@ -34,7 +34,7 @@ class TestCaseFirstScript(WebDriverSetup):
                 image_dimensions.append({'height': height, 'width': width})
             first_dimension = image_dimensions[0] # размеры первого изображения
             assert all(dimension == first_dimension for dimension in image_dimensions)
-            self.tensor_page.get_current_url() == 'https://tensor.ru/about'
+            assert self.tensor_page.get_current_url() == 'https://tensor.ru/about'
         except TimeoutException as e:
             print(e)
         finally:
