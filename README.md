@@ -8,9 +8,19 @@
 ## Шаги установки
 
 ```bash
-# Клонируйте репозиторий
+# Клонировать репозиторий
 git clone https://github.com/sylaar/Tensor_AQA_TestCases.git
+
+# Перейти в папку с заданием
 cd Tensor_AQA_TestCases
+
+# Создать и активировать виртуальное окружение
+python3 -m venv venv
+
+# для Linux/macOS
+source venv/bin/activate
+# для Windows
+venv\Scripts\activate
 
 # Установите зависимости
 pip install -r requirements.txt
